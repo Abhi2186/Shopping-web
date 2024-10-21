@@ -5,7 +5,7 @@ const Footer = () => {
     const socialStyle = 'm-3 rounded-full cursor-pointer p-2 text-white bg-blue-700'
 
   return (
-    <div className='flex items-center justify-around p-2'>
+    <div className='flex items-center justify-around p-2 mobile:flex-col mobile:items-start'>
       <div className='flex flex-1 flex-col flex-wrap p-2'>
         <h1 className='text-[25px]'>
         The world's destination for design
